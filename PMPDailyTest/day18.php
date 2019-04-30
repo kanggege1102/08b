@@ -1,19 +1,29 @@
 <?php 
+
+$n = 10;
+
 $res = NumberOf1($n);
 
 var_dump($res);
 
-$n=256;
-
 function NumberOf1($n){
-	while {
-		$str = count($n);
-		if ($str/2 == 1) {
-			$str = ($n/2 == 1 = 2);
+
+	for ($i=0; $i <=$n ; $i++) { 
+
+		$num = $n%2;
+
+		if ($num != 1) {
+			for ($i=0; $i <=$n ; $i++) { 
+
+			$num = $n%2;
+			}
+		}else{
+			return $num;
 		}
-		return $str;
 	}
+
 }
+
 
 
 
